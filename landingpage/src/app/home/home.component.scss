@@ -4,5 +4,27 @@
   display: block;
 }
 h1 {
+  background: #090E18;
   color: #fff;
+}
+
+.txt-primario {
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+#img-principal {
+  height: 422px;
+  width: 633px;
+  max-width: 60%;
+  float: left;
+}
+
+.card {
+  background: #2F3238;
+}
+
+.txt-card {
+  float: right;
 }

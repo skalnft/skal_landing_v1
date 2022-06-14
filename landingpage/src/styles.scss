@@ -14,11 +14,17 @@ html {
   font-family: $fonte;
   color: #fff !important;
   font-weight: 500 !important;
+  overflow: hidden;
+}
+
+.card-text {
+  font-family: $fonte;
+  color: #fff !important;
+  font-weight: 500 !important;
 }
 
 .background {
   background-color: $fundo !important;
-  width: 100% !important;
 }
 
 .btn-primary {
@@ -37,3 +43,6 @@ html {
   text-align: center;
   align-items: center;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
