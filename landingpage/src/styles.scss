@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,700;1,500&display=swap');
+$verde-claro: #38E429;
+$verde-forte: #1EC510;
+$fundo: #090E18;
+$fundo-meio-cinza: #2F3238;
+$fonte:'Montserrat';
+
+* {
+  font-family: $fonte;
+  color: #fff !important;
+  font-weight: 500 !important;
+}
+
+.background {
+  background-color: $fundo !important;
+  width: 100%;
+}
+
+.btn-primary {
+  background: #38E429 !important;
+  border: none !important;
+  color: #fff;
+}
+
+.navbar {
+  display: block !important;
+  height: 15vh;
+}
+
+.center {
+  margin: 0 auto !important;
+  text-align: center;
+  align-items: center;
+}
