@@ -6,6 +6,10 @@ $fundo: #090E18;
 $fundo-meio-cinza: #2F3238;
 $fonte:'Montserrat';
 
+html {
+  background: $fundo !important;
+}
+
 * {
   font-family: $fonte;
   color: #fff !important;
