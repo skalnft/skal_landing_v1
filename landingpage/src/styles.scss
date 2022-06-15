@@ -30,7 +30,7 @@ html {
 
 .btn-primary {
   background: #38E429 !important;
-  border: none !important;
+  border: transparent !important;
   color: #fff;
 }
 
@@ -41,8 +41,8 @@ html {
 
 .center {
   margin: 0 auto !important;
-  align-items: center;
-  text-align: center;
+  align-items: center !important;
+  text-align: center !important;
 }
 
 html, body { height: 100%; width: 100%; }
