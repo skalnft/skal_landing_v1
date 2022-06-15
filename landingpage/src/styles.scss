@@ -14,7 +14,6 @@ html {
   font-family: $fonte;
   color: #fff !important;
   font-weight: 500 !important;
-  overflow: hidden;
 }
 
 .card-text {
@@ -40,9 +39,8 @@ html {
 
 .center {
   margin: 0 auto !important;
-  text-align: center;
   align-items: center;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { height: 100%; width: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}

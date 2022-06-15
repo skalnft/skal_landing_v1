@@ -1,0 +1,34 @@
+$verde-claro: #38E429;
+$verde-forte: #1EC510;
+$fundo: #090E18;
+$fundo-meio-cinza: #2F3238;
+$fonte:'Montserrat';
+
+.txt-roadmap {
+  font-weight: 400 !important;
+  padding: 18px;
+  font: $fonte;
+
+}
+
+.txt-roadmap-side {
+  font-weight: 600;
+  letter-spacing: 0.2ch;
+  font: $fonte;
+}
+.txt-roadmap-side::before {
+  content: "=>";
+  padding-right: 7px;
+}
+.padding-txt-side {
+  padding: 35px 0 0 40px;
+}
+
+.mat-step-icon .mat-step-icon-state-number .mat-step-icon-selected {
+    background-color: #38E429 !important;
+    color: #fff !important;
+}
+.mat-step-icon-selected {
+  background-color: #38E429 !important;
+  color: #fff !important;
+}
