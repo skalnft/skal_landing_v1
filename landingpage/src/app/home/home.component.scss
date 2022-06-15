@@ -26,37 +26,47 @@ h1 {
   float: right;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000;
+  color: #eee;
+}
 .container {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container p {
-  font-size: 3rem !important;
-  padding: 0.5rem !important;
-  letter-spacing: 0.1rem !important;
-  text-align: center !important;
-  overflow: hidden !important;
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
 }
 .container p span.typed-text {
-  font-weight: normal !important;
+  font-weight: normal;
   color: #38E429 !important;
 }
 .container p span.cursor {
-  display: inline-block !important;
-  background-color: #ccc !important;
-  margin-left: 0.1rem !important;
-  width: 3px !important;
-  animation: blink 1s infinite !important;
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
 }
 .container p span.cursor.typing {
-  animation: none !important;
+  animation: none;
 }
-
 @keyframes blink {
-  0%  { background-color: #ccc !important; } 
-  49% { background-color: #ccc !important; }
-  50% { background-color: transparent !important; }
-  99% { background-color: transparent !important; }
-  100%  { background-color: #ccc !important; }
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
 }
