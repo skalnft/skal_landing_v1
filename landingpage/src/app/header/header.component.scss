@@ -29,3 +29,8 @@ button {
   font-size: medium;
   font-weight: bold !important;
 }
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
