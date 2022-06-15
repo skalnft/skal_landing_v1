@@ -1,4 +1,19 @@
+@import url('../../styles.scss');
+
 * {
-    background-color: #090E18;
     margin: 0 auto !important;
 }
+
+.about-txt {
+  border-bottom: solid #38E429 4px;
+  width: 20%;
+ }
+
+ .bi {
+  transition: all 0.5s;
+  cursor: pointer;
+ }
+ .bi:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+ }

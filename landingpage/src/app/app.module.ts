@@ -16,7 +16,7 @@ import {MatStepperModule} from '@angular/material/stepper';
 import {MatIconModule} from '@angular/material/icon';
 import { TeamComponent } from './team/team.component';
 import {MatTabsModule} from '@angular/material/tabs';
-
+import {MatTooltipModule} from '@angular/material/tooltip';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +36,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     MatButtonModule,
     MatStepperModule,
     MatIconModule,
-    MatTabsModule
+    MatTabsModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
