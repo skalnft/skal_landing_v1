@@ -27,3 +27,37 @@ h1 {
 .txt-card {
   float: right;
 }
+
+.container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.container p {
+  font-size: 3rem !important;
+  padding: 0.5rem !important;
+  letter-spacing: 0.1rem !important;
+  text-align: center !important;
+  overflow: hidden !important;
+}
+.container p span.typed-text {
+  font-weight: normal !important;
+  color: #38E429 !important;
+}
+.container p span.cursor {
+  display: inline-block !important;
+  background-color: #ccc !important;
+  margin-left: 0.1rem !important;
+  width: 3px !important;
+  animation: blink 1s infinite !important;
+}
+.container p span.cursor.typing {
+  animation: none !important;
+}
+@keyframes blink {
+  0%  { background-color: #ccc !important; }
+  49% { background-color: #ccc !important; }
+  50% { background-color: transparent !important; }
+  99% { background-color: transparent !important; }
+  100%  { background-color: #ccc !important; }
+}
