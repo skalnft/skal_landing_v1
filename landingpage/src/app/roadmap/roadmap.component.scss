@@ -4,6 +4,12 @@ $fundo: #090E18;
 $fundo-meio-cinza: #2F3238;
 $fonte:'Montserrat';
 
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  }
+
+
 .txt-roadmap {
   font-weight: 400 !important;
   padding: 18px;

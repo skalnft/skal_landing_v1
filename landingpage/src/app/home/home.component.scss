@@ -1,7 +1,6 @@
 * {
   width: 100%;
   height: 100%;
-  display: block;
 }
 h1 {
   background: #090E18;
@@ -54,8 +53,9 @@ h1 {
 .container p span.cursor.typing {
   animation: none !important;
 }
+
 @keyframes blink {
-  0%  { background-color: #ccc !important; }
+  0%  { background-color: #ccc !important; } 
   49% { background-color: #ccc !important; }
   50% { background-color: transparent !important; }
   99% { background-color: transparent !important; }
