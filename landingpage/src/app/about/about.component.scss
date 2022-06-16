@@ -1,5 +1,10 @@
 @import url('../../styles.scss');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .about-txt {
   border-bottom: solid #38E429 4px;
   width: 70px;
@@ -18,3 +23,8 @@
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
  }
+
+ .about-div {
+  margin-top: 50px;
+ }
+
