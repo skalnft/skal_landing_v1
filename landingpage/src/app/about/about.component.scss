@@ -19,12 +19,45 @@
   transition: all 0.5s;
   cursor: pointer;
  }
+
+
  .bi:hover {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
+  background-color: rgba(0, 0, 0, .3) !important;
+  width: 250%;
+  height: 250%;
+  z-index: 999;
  }
+
+ //outro efeito para testar substituir com esse de cima
+ #div-blockchain {
+  transition: all 0.5s;
+  cursor: pointer;
+ }
+
+
+ #div-blockchain:hover {
+  -webkit-transform: scale(3);
+  transform: scale(1.5);
+  background-color: rgba(0, 0, 0, .3) !important;
+  z-index: 999;
+ }
+
 
  .about-div {
   margin-top: 50px;
  }
+
+ //efeito para escurecer o fundo
+.overlay{
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: -1;
+  transition: all .5s;
+
+}
 

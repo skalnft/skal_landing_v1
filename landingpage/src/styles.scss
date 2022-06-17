@@ -47,3 +47,27 @@ html {
 
 html, body { height: 100%; width: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+
+//efeito para escurecer o fundo
+.overlay{
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: -1;
+  transition: all .5s;
+}
+
+#div-blockchain {
+  transition: all 0.5s;
+  cursor: pointer;
+ }
+
+
+ #div-blockchain:hover {
+  -webkit-transform: scale(3);
+  transform: scale(1.5);
+  background-color: rgba(0, 0, 0, .3) !important;
+  z-index: 999;
+ }

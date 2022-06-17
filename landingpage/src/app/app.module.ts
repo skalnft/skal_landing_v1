@@ -17,6 +17,8 @@ import {MatIconModule} from '@angular/material/icon';
 import { TeamComponent } from './team/team.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatInputModule} from '@angular/material/input';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +39,10 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     MatStepperModule,
     MatIconModule,
     MatTabsModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatInputModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
